@@ -5,12 +5,12 @@
 }
 
 h1 {
+    font-size: 2rem;
     text-align: center;
     margin: 3rem auto;
 }
 
 section {
-    margin: 3% 0;
     border: 2px solid black;
     padding: 0 .5rem;
     background-color: rgb(74, 153, 153);
@@ -76,6 +76,7 @@ section {
     }
   
     .last-par {
+        margin-top: 3%;
         clear: both;
         width: 94%;
     }
@@ -87,8 +88,8 @@ section {
 }
 
 /* ------------------Mobile View: Equal to or less than 767px-------------- */
-@media (max-width: 767) {
-    boby{
-        background-color: blue;
+@media (max-width: 767px) {
+    section {
+        margin: 3% 5%;
     }
 }
