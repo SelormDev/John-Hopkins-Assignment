@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+section {
+    margin: 3% 0;
+    border: 2px solid black;
+    padding: 0 .5rem;
+    background-color: rgb(74, 153, 153);
+}
+
+section>h2 {
+    font-size: 1.3rem;
+    float: right;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    width: 35%;
+    text-align: center;
+    display: block;
+    position: relative;
+    left: .5rem;
+}
+
+p {
+    margin-top: 2rem;
+}
+
+.chicken {
+    background-color: aqua;
+}
+
+.bief {
+    background-color: beige;
+}
+
+.sushi {
+    background-color: darkorange;
+}
+
+/* ----------------------Large Screens: 922px and Above-------------------- */
+@media (min-width: 992px) {
+section {
+    float: left;
+    width: 29.33%;
+    margin-left: 3%;
+    height: 10rem;
+}
+
+
+
+.last-par {
+    margin-right: 3%;
+}
+ 
+}
+/* -------------------Tablet View: Between 768px and 991px----------------- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        width: 45.5%;
+        float: left;
+        margin-left: 3%;
+        height: 10rem;
+    }
+
+    mid-par {
+        margin-right: 3%;
+    }
+  
+    .last-par {
+        clear: both;
+        width: 94%;
+    }
+
+    .last-par .sushi {
+        width: 20%;
+    }
+
+}
+
+/* ------------------Mobile View: Equal to or less than 767px-------------- */
+@media (max-width: 767) {
+    boby{
+        background-color: blue;
+    }
+}

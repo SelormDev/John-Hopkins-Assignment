@@ -1,1 +1,1 @@
-# John-Hopkins-Assignment
+# John-Hopkins-Lecture
