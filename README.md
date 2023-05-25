@@ -1,3 +1,3 @@
 # John-Hopkins-Lecture
 
-![Preview Exercise]()
+[Preview Exercise](https://selormdev.github.io/John-Hopkins-Assignment/)
